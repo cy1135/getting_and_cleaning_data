@@ -28,8 +28,8 @@ Description of the variables, the data, and transformations performed to clean u
 
 #### Identifiers
 
-*activityID  
-*subjectID  
+* activityID  
+* subjectID  
 
 ### Variables 
 

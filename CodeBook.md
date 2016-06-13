@@ -10,95 +10,95 @@ Description of the variables, the data, and transformations performed to clean u
 
 ### Source Files
 
-### data_root
+#### data_root
 1. activity_labels.txt  
 2. features_info.txt  
 3. features.txt  
 4. README.txt  
 
-### test  
+#### test  
 1. subject_test.txt  
 2. X_test.txt  
 3. y_test.txt  
 
-### train
+#### train
 1. subject_train.txt  
 2. X_train.txt  
 3. y_train.txt  
 
-### Identifiers
+#### Identifiers
 
 *activityID  
 *subjectID  
 
-### Variables
+### Variables 
 
-*tBodyAccMeanX  
-*tBodyAccMeanY  
-*tBodyAccMeanZ  
-*tBodyAccStdX  
-*tBodyAccStdY  
-*tBodyAccStdZ  
-*tGravityAccMeanX  
-*tGravityAccMeanY  
-*tGravityAccMeanZ  
-*tGravityAccStdX  
-*tGravityAccStdY  
-*tGravityAccStdZ  
-*tBodyAccJerkMeanX  
-*tBodyAccJerkMeanY  
-*tBodyAccJerkMeanZ  
-*tBodyAccJerkStdX  
-*tBodyAccJerkStdY  
-*tBodyAccJerkStdZ  
-*tBodyGyroMeanX  
-*tBodyGyroMeanY  
-*tBodyGyroMeanZ  
-*tBodyGyroStdX  
-*tBodyGyroStdY  
-*tBodyGyroStdZ  
-*tBodyGyroJerkMeanX  
-*tBodyGyroJerkMeanY  
-*tBodyGyroJerkMeanZ  
-*tBodyGyroJerkStdX  
-*tBodyGyroJerkStdY  
-*tBodyGyroJerkStdZ  
-*tBodyAccMagMean  
-*tBodyAccMagStd  
-*tGravityAccMagMean  
-*tGravityAccMagStd  
-*tBodyAccJerkMagMean  
-*tBodyAccJerkMagStd  
-*tBodyGyroMagMean  
-*tBodyGyroMagStd  
-*tBodyGyroJerkMagMean  
-*tBodyGyroJerkMagStd  
-*fBodyAccMeanX  
-*fBodyAccMeanY  
-*fBodyAccMeanZ  
-*fBodyAccStdX  
-*fBodyAccStdY  
-*fBodyAccStdZ  
-*fBodyAccJerkMeanX  
-*fBodyAccJerkMeanY  
-*fBodyAccJerkMeanZ  
-*fBodyAccJerkStdX  
-*fBodyAccJerkStdY  
-*fBodyAccJerkStdZ  
-*fBodyGyroMeanX  
-*fBodyGyroMeanY  
-*fBodyGyroMeanZ  
-*fBodyGyroStdX  
-*fBodyGyroStdY  
-*fBodyGyroStdZ  
-*fBodyAccMagMean  
-*fBodyAccMagStd  
-*fBodyBodyAccJerkMagMean  
-*fBodyBodyAccJerkMagStd  
-*fBodyBodyGyroMagMean  
-*fBodyBodyGyroMagStd  
-*fBodyBodyGyroJerkMagMean  
-*fBodyBodyGyroJerkMagStd  
+* tBodyAccMeanX  
+* tBodyAccMeanY  
+* tBodyAccMeanZ  
+* tBodyAccStdX  
+* tBodyAccStdY  
+* tBodyAccStdZ  
+* tGravityAccMeanX  
+* tGravityAccMeanY  
+* tGravityAccMeanZ  
+* tGravityAccStdX  
+* tGravityAccStdY  
+* tGravityAccStdZ  
+* tBodyAccJerkMeanX  
+* tBodyAccJerkMeanY  
+* tBodyAccJerkMeanZ  
+* tBodyAccJerkStdX  
+* tBodyAccJerkStdY  
+* tBodyAccJerkStdZ  
+* tBodyGyroMeanX  
+* tBodyGyroMeanY  
+* tBodyGyroMeanZ  
+* tBodyGyroStdX  
+* tBodyGyroStdY  
+* tBodyGyroStdZ  
+* tBodyGyroJerkMeanX  
+* tBodyGyroJerkMeanY  
+* tBodyGyroJerkMeanZ  
+* tBodyGyroJerkStdX  
+* tBodyGyroJerkStdY  
+* tBodyGyroJerkStdZ  
+* tBodyAccMagMean  
+* tBodyAccMagStd  
+* tGravityAccMagMean  
+* tGravityAccMagStd  
+* tBodyAccJerkMagMean  
+* tBodyAccJerkMagStd  
+* tBodyGyroMagMean  
+* tBodyGyroMagStd  
+* tBodyGyroJerkMagMean  
+* tBodyGyroJerkMagStd  
+* fBodyAccMeanX  
+* fBodyAccMeanY  
+* fBodyAccMeanZ  
+* fBodyAccStdX  
+* fBodyAccStdY  
+* fBodyAccStdZ  
+* fBodyAccJerkMeanX  
+* fBodyAccJerkMeanY  
+* fBodyAccJerkMeanZ  
+* fBodyAccJerkStdX  
+* fBodyAccJerkStdY  
+* fBodyAccJerkStdZ  
+* fBodyGyroMeanX  
+* fBodyGyroMeanY  
+* fBodyGyroMeanZ  
+* fBodyGyroStdX  
+* fBodyGyroStdY  
+* fBodyGyroStdZ  
+* fBodyAccMagMean  
+* fBodyAccMagStd  
+* fBodyBodyAccJerkMagMean  
+* fBodyBodyAccJerkMagStd  
+* fBodyBodyGyroMagMean  
+* fBodyBodyGyroMagStd  
+* fBodyBodyGyroJerkMagMean  
+* fBodyBodyGyroJerkMagStd  
 
 ### Activity Labels
 
@@ -112,14 +112,6 @@ Description of the variables, the data, and transformations performed to clean u
 ### Steps
 
 1. Read files  
-* features  
-* activities  
-* subject text  
-* x test  
-* y test  
-* subject train  
-* x train  
-* y train  
 2. Use features for column names
 3. Subset to only mean and std fields
 4. Combine into separate test and train datasets

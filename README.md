@@ -12,5 +12,5 @@ The files in this repository:
 **Data set one** - merged data of training and test sets  
 **Data set two** - tidy data set with the average of each variable for reach activity and each subject  
 **CodeBook.md** - describes the variables, the data, transformations performed to clean the data  
-**analysis.R** - script for performing analysis  
+**run_analysis.R** - script for performing analysis  
 

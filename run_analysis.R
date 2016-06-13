@@ -11,6 +11,7 @@ rm(list=ls())
 
 ## load our library
 library(reshape2)
+library(plyr)
 
 ##
 ## Get data
@@ -116,6 +117,13 @@ trainDataset <- cbind(yTrain, subjectTrain, xTrain)
 ## Merge Test and Train Datasets
 ##
 dataSet <- rbind(testDataset, trainDataset)
+
+##
+## Clean Up Column Names
+##
+names(dataSet) <- gsub("[-()]", "", names(dataSet))
+names(dataSet) <- gsub("mean", "Mean", names(dataSet))
+names(dataSet) <- gsub("std", "Std", names(dataSet))
 
 ##
 ## Second dataset, with average of each variable for each activity and each subject 

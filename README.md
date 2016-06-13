@@ -9,8 +9,8 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 The files in this repository:
 
 **READ.md** -   
-**Data set one** - merged data of training and test sets  
-**Data set two** - tidy data set with the average of each variable for reach activity and each subject  
+**tidy.txt** - merged data of training and test sets, subset to mean and std  
+**tidy_avg.txt** - tidy data set with the average of each variable for reach activity and each subject  
 **CodeBook.md** - describes the variables, the data, transformations performed to clean the data  
 **run_analysis.R** - script for performing analysis  
 
